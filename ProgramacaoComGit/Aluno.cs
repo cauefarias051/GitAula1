@@ -8,5 +8,14 @@ namespace ProgramacaoComGit
 {
     internal class Aluno
     {
+        //Atributos
+        public string nome;
+        public int anoNascimento;
+
+        //Métodos
+        public int calcularIdade()
+        {
+            return 2026 - this.anoNascimento;
+        }
     }
 }
